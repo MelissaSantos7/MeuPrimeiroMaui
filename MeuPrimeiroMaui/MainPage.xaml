@@ -13,13 +13,16 @@
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
-            <Label Text="Primeiro Número"/>
-            <Entry x:Name="txt_n1" />
+            <Label Text="Insira o A"/>
+            <Entry x:Name="txt_a" />
 
-            <Label Text="Segundo Número" />
-            <Entry x:Name="txt_n2" />
+            <Label Text="Insira o B" />
+            <Entry x:Name="txt_b" />
 
-            <Button Text="Somar" Clicked="Button_Clicked" />
+            <Label Text="insira o C "/>
+            <Entry x:Name="txt_c " />
+
+            <Button Text="Calcular" Clicked="Button_Clicked"/>
 
         </VerticalStackLayout>
     </ScrollView>
